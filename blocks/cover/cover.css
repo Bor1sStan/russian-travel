@@ -1,0 +1,9 @@
+.cover {
+   max-width: 1184px;
+   height: 740px;
+   margin: 92px auto;
+   background-image: url(../../../images/cover__background.jpg);
+   border: 1px yellow solid;
+   color: #ffffff;
+   font-family: "Inter";
+}
