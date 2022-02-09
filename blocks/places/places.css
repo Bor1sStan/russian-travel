@@ -4,3 +4,15 @@
    margin: 92px auto;
    font-family: "Inter";
 }
+
+@media (max-width: 320px) {
+   .places {
+      margin: 64px auto;
+   }
+}
+
+@media (max-width: 768px) {
+   .places {
+      margin: 88px auto;
+   }
+}

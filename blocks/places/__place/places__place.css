@@ -10,3 +10,10 @@
 .places__place:last-of-type {
    margin-bottom: 0;
 }
+
+@media (max-width: 320px) {
+   .places__place {
+      grid-template-columns: 320px;
+      grid-template-rows: 4fr;
+   }
+}
