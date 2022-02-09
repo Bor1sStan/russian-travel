@@ -1,14 +1,13 @@
 .photo-grid {
-   margin: 92px auto 0;
+   margin: 0 auto;
    display: grid;
    grid-template-columns: repeat(4, auto);
    grid-gap: 16px;
 }
 
-@media (max-width: 320px) {
+@media (max-width: 1024px) {
    .photo-grid {
-      grid-template-columns: 1fr;
-      margin: 64px auto;
+      grid-template-columns: repeat(3, auto);
    }
 }
 
@@ -19,8 +18,9 @@
    }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 320px) {
    .photo-grid {
-      grid-template-columns: repeat(3, auto);
+      grid-template-columns: 1fr;
+      margin: 64px auto;
    }
 }

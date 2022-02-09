@@ -1,6 +1,6 @@
 .places__url-heading {
    margin-bottom: 12px;
-   width: 456px;
+   max-width: 456px;
    height: 12px;
    font-style: normal;
    font-weight: normal;
