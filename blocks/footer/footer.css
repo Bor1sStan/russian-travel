@@ -8,11 +8,12 @@
    flex-wrap: wrap;
    justify-content: space-between;
    font-family: "Inter";
+   box-sizing: border-box;
 }
 
 @media (max-width: 1024px) {
    .footer {
-      margin: 0 auto 24px;
+      margin: 0 48px 24px 48px;
    }
 }
 
