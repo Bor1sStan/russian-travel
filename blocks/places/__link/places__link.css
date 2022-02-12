@@ -1,6 +1,5 @@
 .places__link {
    margin: 0;
-   max-width: 456px;
    height: 22px;
    font-style: normal;
    font-weight: normal;
@@ -13,4 +12,12 @@
 
 .places__link:hover {
    opacity: 75%;
+}
+
+@media (max-width: 320px) {
+   .places__link {
+   max-width: 288px;
+   font-size: 12px;
+   line-height: 12px;
+   }
 }

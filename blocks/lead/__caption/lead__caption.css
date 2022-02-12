@@ -6,8 +6,13 @@
    font-weight: normal;
    color: #ffffff;
    text-transform: uppercase;
-   max-width: 158px;
    margin-top: 8px;
+}
+
+@media (max-width: 1024px) {
+   .lead__caption {
+      margin: 8px 0 0 48px;
+    }
 }
 
 @media (max-width: 768px) {

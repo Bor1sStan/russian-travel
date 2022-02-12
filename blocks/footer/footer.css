@@ -1,12 +1,12 @@
 .footer {
    max-width: 1184px;
+   max-height: 310px;
    color: #ffffff;
    margin: 0 auto 24px;
    display: flex;
    flex-direction: row;
    flex-wrap: wrap;
    justify-content: space-between;
-   align-items: center;
    font-family: "Inter";
 }
 
@@ -25,7 +25,8 @@
 
 @media (max-width: 320px) {
    .footer {
-      max-width: 186px;
-      margin: 0 118px 0 16px;
+      width: 186px;
+      height: 310px;
+      margin: 0 118px 24px 16px;
    }
 }

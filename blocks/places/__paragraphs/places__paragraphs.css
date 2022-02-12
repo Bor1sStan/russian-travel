@@ -1,6 +1,14 @@
 .places__paragraphs {
    font-style: normal;
-   font-weight: 400;
+   font-weight: normal;
    font-size: 18px;
-   line-height: 1.66;
+   line-height: 163%;
+}
+
+@media (max-width: 320px) {
+   .places__paragraphs {
+      max-width: 288px;
+      font-size: 16px;
+      margin-left: 16px;
+   }
 }
