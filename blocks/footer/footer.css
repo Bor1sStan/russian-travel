@@ -1,7 +1,4 @@
 .footer {
-   max-width: 1184px;
-   max-height: 310px;
-   color: #ffffff;
    margin: 0 auto 24px;
    display: flex;
    flex-direction: row;
@@ -9,7 +6,10 @@
    justify-content: space-between;
    font-family: "Inter";
    box-sizing: border-box;
+   color: #ffffff;
 }
+
+
 
 @media (max-width: 1024px) {
    .footer {
@@ -19,15 +19,12 @@
 
 @media (max-width: 768px) {
    .footer {
-      max-width: 720px;
       margin: 0 24px 24px 24px;
    }
 }
 
 @media (max-width: 320px) {
    .footer {
-      width: 186px;
-      height: 310px;
       margin: 0 118px 24px 16px;
    }
 }
