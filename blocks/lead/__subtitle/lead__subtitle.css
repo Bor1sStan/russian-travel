@@ -16,6 +16,15 @@
    }
 }
 
+@media (max-width: 768px) {
+   .lead__subtitle {
+      font-size: 3.90625vw;
+      line-height: 4.6875vw;
+      margin: 32px auto 56px;
+       
+   }
+}
+
 @media (max-width: 320px) {
    .lead__subtitle {
       font-size: 16px;

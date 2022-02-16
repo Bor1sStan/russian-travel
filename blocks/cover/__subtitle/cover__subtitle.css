@@ -11,24 +11,24 @@
 
 @media (max-width: 768px) {
    .cover__subtitle {
-      font-size: 2.34375vw;
-      line-height: 2.86458333vw;
-      margin: 16px 26.5625vw 0;
+       font-size: 2.34375vw;
+       line-height: 2.86458333vw;
+       margin: 16px 26.5625vw 0;
    }
 }
 
 @media (max-width: 600px) {
    .cover__subtitle {
-      font-size: 2.66vw;
-      line-height: 3.33vw;
-      margin: 16px 21vw 0;
+       font-size: 2.66vw;
+       line-height: 3.33vw;
+       margin: 16px 21vw 0;
    }
 }
 
 @media (max-width: 320px) {
    .cover__subtitle {
-      font-size: 14px;
-      line-height: 1.14;
-      margin: 16px 16px 0;
+       font-size: 14px;
+       line-height: 1.14;
+       margin: 16px 16px 0;
    }
 }

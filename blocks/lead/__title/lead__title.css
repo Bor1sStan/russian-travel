@@ -9,6 +9,13 @@
    font-family: "Inter";
 }
 
+@media (max-width: 768px) {
+   .lead__title {
+      font-size: 12.5vw	;
+      line-height: 13.0208333vw;
+   }
+}
+
 @media (max-width: 320px) {
    .lead__title {
       font-size: 40px;

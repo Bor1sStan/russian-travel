@@ -1,20 +1,19 @@
 .cover {
    max-width: 1184px;
    min-width: 320px;
-   height: 740px;
    margin: 92px auto;
    background-image: url(./../../images/cover__background.jpg);
+   background-position: center;
+   background-size: cover;
    color: #ffffff;
    font-family: "Inter";
-   background-color: rgba(42, 44, 47, 0.3);
-   background-size: cover;
+   
 }
 
 @media (max-width: 1024px) {
    .cover {
       margin: 92px 0;
       max-width: 1024px;
-      max-height: 840px;
    }
 }
 
@@ -22,7 +21,6 @@
    .cover {
       margin: 90px 0 88px 0;
       max-width: 768px;
-      max-height: 480px;
    }
 }
 
@@ -30,6 +28,5 @@
    .cover {
       margin: 66px 0 64px 0;
       max-width: 320px;
-      max-height: 200px;
    }
 }

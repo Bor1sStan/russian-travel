@@ -1,11 +1,18 @@
 .header__lang-link {
    color: #ffffff;
    font-size: 24px;
-   line-height: 14px;
+   line-height: 28px;
    transition: opacity 0.5s ease;
-
+   margin-left: 18px;
 }
 
 .header__lang-link:hover {
    opacity: 55%;
+}
+
+@media (max-width: 320px) {
+   .header__lang-link {
+      font-size: 14px;
+      line-height: 20px;
+   }
 }

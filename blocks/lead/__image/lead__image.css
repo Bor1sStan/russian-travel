@@ -2,6 +2,7 @@
    width: 100%;
    height: auto;
    object-fit: cover;
+   margin: 0;
 }
 
 @media (max-width: 1280px) {
@@ -15,7 +16,7 @@
    .lead__image {
       max-width: 928px;
       max-height: 580px;
-      margin: 0 48px 0 48px;
+      margin: 0 auto;
    }
 }
 
