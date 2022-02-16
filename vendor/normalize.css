@@ -24,12 +24,6 @@ body {
   margin: 0;
 }
 
-a {
-  color: #ffffff;
-  text-decoration: none;
-}
-
-
 /**
  * Render the `main` element consistently in IE.
  */
