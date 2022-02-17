@@ -29,6 +29,11 @@ a {
   color: #ffffff;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
 /**
  * Render the `main` element consistently in IE.
  */
