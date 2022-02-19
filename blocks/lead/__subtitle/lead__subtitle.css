@@ -7,7 +7,6 @@
    line-height: 36px;
    text-align: center;
    color: #ffffff;
-   font-family: "Inter";
 }
 
 @media (max-width: 1024px) {
@@ -21,7 +20,6 @@
       font-size: 3.90625vw;
       line-height: 4.6875vw;
       margin: 32px auto 56px;
-       
    }
 }
 
@@ -31,4 +29,4 @@
       line-height: 20px;
       margin: 16px auto 40px;
    }
-}
+} 

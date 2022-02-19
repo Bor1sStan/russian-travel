@@ -1,31 +1,35 @@
 .footer {
    max-width: 1184px;
-   margin: 0 auto 24px;
    display: flex;
    flex-direction: row;
-   flex-wrap: wrap;
    justify-content: space-between;
-   font-family: "Inter";
-   box-sizing: border-box;
    color: #ffffff;
-}
-
-
-
-@media (max-width: 1024px) {
-   .footer {
-      margin: 0 48px 24px 48px;
-   }
+   margin: 0 48px 24px;
+   box-sizing: border-box;
 }
 
 @media (max-width: 768px) {
    .footer {
-      margin: 0 24px 24px 24px;
+      margin: 0 24px 24px;
+   }
+}
+
+@media (max-width: 600px) {
+   .footer {
+      flex-direction: column; 
+      margin: 0 6px 24px;
+   }
+}
+
+@media (max-width: 375px) {
+   .footer {
+      flex-direction: column; 
+      margin: 0 10px 24px;
    }
 }
 
 @media (max-width: 320px) {
    .footer {
-      margin: 0 118px 24px 16px;
+      margin: 0 16px 24px;
    }
 }

@@ -4,6 +4,7 @@
    line-height: 28px;
    transition: opacity 0.5s ease;
    margin-left: 18px;
+   text-decoration: none;
 }
 
 .header__lang-link:hover {
@@ -12,7 +13,7 @@
 
 @media (max-width: 320px) {
    .header__lang-link {
-      font-size: 14px;
-      line-height: 20px;
+     font-size: 18px;
+     line-height: 20px;
    }
 }

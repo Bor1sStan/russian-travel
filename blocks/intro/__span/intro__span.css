@@ -1,3 +1,11 @@
 .intro__span {
    font-weight: 700;
 }
+
+@media (max-width: 600px) {
+   .intro__span{
+      font-size: 12px;
+      line-height: 18px;
+      margin: 0;
+   }
+}
