@@ -17,14 +17,14 @@
 
 @media (max-width: 600px) {
    .footer {
-      flex-direction: column; 
+      flex-direction: column;
       margin: 0 6px 24px;
    }
 }
 
 @media (max-width: 375px) {
    .footer {
-      flex-direction: column; 
+      flex-direction: column;
       margin: 0 10px 24px;
    }
 }
