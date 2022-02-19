@@ -9,5 +9,6 @@
    .places__website {
       max-width: 288px;
       margin-left: 16px;
+      font-family: "Inter", "Arial", "Sans-serif";
    }
 }

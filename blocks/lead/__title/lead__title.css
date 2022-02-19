@@ -6,6 +6,7 @@
    line-height: 100px;
    margin: 0 auto;
    color: #ffffff;
+   font-family: "Inter", "Arial", "Sans-serif";
 }
 
 @media (max-width: 768px) {

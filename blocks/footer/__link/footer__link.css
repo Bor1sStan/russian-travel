@@ -4,6 +4,7 @@
    color: #ffffff;
    text-decoration: none;
    margin-right: 16px;
+   font-family: "Inter", "Arial", "Sans-serif";
 }
 
 @media (max-width: 600px) {
