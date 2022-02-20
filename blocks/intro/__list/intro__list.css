@@ -10,7 +10,7 @@
 }
 
 @media (max-width: 600px) {
-   .intro__list li{
+   .intro__list{
       font-size: 12px;
       line-height: 18px;
       margin: 0;

@@ -3,17 +3,17 @@
    line-height: 18px;
    color: #ffffff;
    text-decoration: none;
-   margin-right: 16px;
+   transition: opacity 0.5s ease;
    font-family: "Inter", "Arial", "Sans-serif";
 }
 
+.footer__link:hover {
+opacity: 55%;
+}
+
 @media (max-width: 600px) {
-   .footer__link, li{
-      margin-bottom: 32px;
+   .footer__link{
       font-size: 24px;
       line-height: 24px;
-   }
-   .footer__link li:last-child {
-      margin-bottom: 0;
    }
 }
