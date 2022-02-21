@@ -1,7 +1,7 @@
 .intro {
    margin: 92px auto 92px 148px;
    color: #ffffff;
-   font-family: "Inter", "Arial", "Sans-serif";
+   font-family: "Inter", "Arial", sans-serif;
 }
 
 @media (max-width: 1024px) {

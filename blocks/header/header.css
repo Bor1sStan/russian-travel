@@ -4,7 +4,7 @@
    flex-direction: row;
    justify-content: space-between;
    margin: 28px auto 0;
-   font-family: "Inter", "Arial", "Sans-serif";
+   font-family: "Inter", "Arial", sans-serif;
 }
 
 @media (max-width: 1024px) {

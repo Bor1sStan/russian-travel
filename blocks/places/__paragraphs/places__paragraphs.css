@@ -3,7 +3,7 @@
    font-weight: 200;
    font-size: 18px;
    line-height: 163%;
-   font-family: "Inter", "Arial", "Sans-serif";
+   font-family: "Inter", "Arial", sans-serif;
 }
 
 @media (max-width: 768px) {
